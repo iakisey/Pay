@@ -13,6 +13,18 @@
 
 # 具体过程
 
+## 准备
+
+生成一对公钥、密钥
+
+公钥保上传到支付宝应用公钥中
+![image](./pic/1.png)
+![image](./pic/2.png)
+
+
+私钥保存在服务器中，待会要引用其地址！
+
+
 ## 请求参数
 
 文档：[App支付请求参数说明](https://doc.open.alipay.com/docs/doc.htm?spm=a219a.7629140.0.0.VpgOc2&treeId=204&articleId=105465&docType=1)
@@ -103,4 +115,5 @@ signed_str += '&sign=' += quote_plus(sign)
 
 最后讲`signed_str`传给前端
 
-[apicloud文档](http://docs.apicloud.com/Client-API/Open-SDK/aliPay#a1)
+
+[代码地址](https://github.com/iakisey/Pay/blob/master/alipay/__init__.py)
