@@ -17,12 +17,13 @@
 
 生成一对公钥、密钥
 
-公钥保上传到支付宝应用公钥中
-![image](./pic/1.png)
-![image](./pic/2.png)
+公钥保存在支付宝应用公钥中
 
+![](https://github.com/iakisey/Pay/raw/master/pic/1.png)
 
-私钥保存在服务器中，待会要引用其地址！
+![](https://github.com/iakisey/Pay/raw/master/pic/2.png)
+
+私钥保存在服务器中
 
 
 ## 请求参数
