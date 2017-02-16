@@ -1,4 +1,0 @@
-[alipay]
-appid = 201221011014
-notify_url = http://localhost:9000/
-private_key = rsa/private.pem

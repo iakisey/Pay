@@ -1,0 +1,14 @@
+[alipay]
+appid = 1
+notify_url = http://localhost:9000/
+public_key = rsa/alipay/public.pem
+private_key = rsa/alipay/private.pem
+ali_public_key = rsa/alipay/ali_public.pem
+ali_url = https://openapi.alipay.com/gateway.do
+
+[wx.app]
+appid = 1
+mch_id = 1
+spbill_create_ip = 1
+notify_url = 1
+key = 1
